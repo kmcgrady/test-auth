@@ -1,2 +1,2 @@
 streamlit-1.52.1-py3-none-any.whl
-Authlib=1.5.2
+Authlib==1.5.2
