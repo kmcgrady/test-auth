@@ -8,7 +8,7 @@ else:
     st.write("Secret Content")
     st.write(st.user)
     if st.checkbox("Show tokens (not safe!)"):
-        st.write(st.user.tokens)
+        st.write({ token: value for token, value in st.user.tokens.items() })
 
     st.button("Logout", on_click=st.logout)
 
